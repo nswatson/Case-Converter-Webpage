@@ -1,0 +1,62 @@
+body {
+	text-align: center;
+	background-color: #1b1835;
+	font-family: 'Text Me One', sans-serif;
+	color: #8b8b91;	
+	text-shadow: 2px 2px 5px black;
+}
+
+h1 {
+	color: #ff598a;	
+	font-size: 50px;
+	text-shadow: 2px 2px 5px black;
+}
+
+h3 {
+	font-size: 23px;
+}
+
+#textArea {
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#counter {
+	font-size: 23px;
+}
+
+#wordCount, #charCount {
+	color: #ff598a;	
+}
+
+.button{
+	display:inline-block;
+	padding:0.2em 0.5em;
+	margin: 0.4em 0.3em 0.3em 0;
+	border-radius: 2em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	color:#cccccc;
+	background-color:#7d1c4d;
+	text-align:center;
+	transition: all 0.2s;
+	font-size: 17px;
+	cursor: pointer;
+	border-color: #7d1c4d;
+	/*box-shadow: 1px 1px 3px black;*/
+	text-shadow: 2px 2px 5px black;
+}
+
+.button:hover {
+	background-color: #4c0b25;
+	border-color: #4c0b25;
+}
+
+.button:focus {
+    outline: none;
+}
+
+#countSpaces {
+	font-size: 20px;
+}

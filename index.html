@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nicky's Case Converter</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="A free online tool that will change your text in just a few clicks">
+	<meta name="keywords" content="case, convert, converter, capitalize, capitalisation, lowercase, uppercase, sentence, text, online, tool, help, Nicky, Nicole, Watson, uppercase, lowercase, case, sentence, title, alternating, pascal, hyphen, snake">
+	<meta name="author" content="Nicole Watson - Nicky Codes It">
+	<link rel="stylesheet" type="text/css" href="convertCase.css">
+	<link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+</head>
+<body>
+	<!-- HEADER (below) -->
+	<header>
+		<h1>Nicky's Case Converter</h1>
+		<h3>A free online tool that will change your text in just a few clicks!</h3>
+	</header>
+	<!-- HEADER (above) -->
+	<!-- CONVERT TEXT AREA - where the magic happens (below) -->
+	<div id="converterArea">
+		<h3>Enter or paste your text below...</h3>
+		<!-- TEXT AREA (below) -->
+		<textarea name="textArea" id="textArea" autofocus rows="13" cols="70" placeholder="Enter or paste your text here..."></textarea>
+		<!-- TEXT AREA (above) -->
+		<br>
+		<!-- WORD COUNTER (below) -->
+		<div name="counter" id="counter">
+			<span id="wordName">Words:</span> <span id="wordCount">0</span> / <span id="charName">Characters:</span> <span id="charCount">0</span>
+		</div>
+		<!-- WORD COUNTER (above) -->
+		<br>
+		<!-- BUTTONS (below) -->
+		<div name="textButtons" id="textButtons">
+			<button type="button" class="button" id="uppercase">UPPERCASE</button>
+			<button type="button" class="button" id="lowercase">lowercase</button>
+			<button type="button" class="button" id="sentenceCase">Sentence</button>
+			<button type="button" class="button" id="titleCase">Title Case</button>
+			<button type="button" class="button" id="alternating">AlTeRnAtInG</button>
+			<button type="button" class="button" id="pascalCase">PascalCase</button>
+			<button type="button" class="button" id="hyphenCase">Hyphen-case</button>
+			<button type="button" class="button" id="snakeCase">snake_case</button>
+			<br>
+			<button type="button" class="button" id="selectAll">Select All</button>
+			<button type="button" class="button" id="clear">Clear</button>
+		</div>
+		<!-- BUTTONS (above) -->
+		<br>
+	</div>
+	<!-- CONVERT TEXT AREA - where the magic happens (above) -->
+	<input type="checkbox" name="spaceOption" value="spaceOption" id="spaceOption"> <span id="countSpaces">Count spaces in-between characters</span><br>
+	<!-- FOOTER (below) -->
+	<footer>
+		<br>
+		<div id="copyright">
+			Website proudly created by Nicky Codes It
+		</div>
+		<br>
+	</footer>
+	<!-- FOOTER (above) -->
+	<script type="text/javascript" src="convertCase.js"></script>
+</body>
+</html>
